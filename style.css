@@ -229,13 +229,26 @@ body {
 
 
 @media (max-width:600px) {
+    .title{
+        height: 14%;
+    }
     .title h1{
         font-size: 70px;
+    }
+    .startButton{
+        height: 90%;
     }
     .start{
         width: 50%;
     }
+    .bio{
+        height: 14%;
+    }
+    .bio p{
+        font-size: 18px;
+    }
     .main{
+        height: 86%;
         flex-direction: column;
     }
     .leftSide{
@@ -266,6 +279,17 @@ body {
     .inputField{
         width: 50%;
 
+    }
+    .gameField{
+        height: 86%;
+        justify-content: start;
+
+    }
+    .gameField p{
+        font-size: 18px;
+    }
+    .gameField h3{
+        font-size: 16px;
     }
     .gameField button{
         width: 40%;
