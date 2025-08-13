@@ -1,0 +1,228 @@
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+.title{
+    width: 100%;
+    height: 20%;
+    /* background-color: aliceblue;      */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.title h1{
+    font-size: 150px;
+    font-family:dosis;
+    color: rgb(194, 255, 132);
+}
+.main{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    position: absolute;
+    bottom: -105;
+    
+}
+.startClick{
+    position: absolute;
+    bottom: 0;
+}
+.leftSide{
+    width: 20%;
+    height: 100%;
+    background-color: rgb(194, 255, 132);
+
+}
+.center{
+    width: 60%;
+    height: 100%;
+    /* background-color: aliceblue; */
+    /* position: relative; */
+
+}
+.rightSide{
+    width: 20%;
+    height: 100%;
+    background-color: rgb(194, 255, 132);
+
+}
+.bio{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bio p{
+    font-family: dosis;
+    font-size: 28px;
+    font-weight: 600;
+    color: rgb(150, 238, 63);
+
+}
+.startButton{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* position: absolute;
+    top: 0; */
+    
+    
+}
+.hideTop{
+    /* position: absolute;
+    top: -105%; */
+    opacity: 0;
+}
+
+.start{
+    width: 30%;
+    height: 10%;
+    color:rgb(150, 238, 63) ;
+    border: rgb(150, 238, 63) solid 3px;
+    border-radius: 20px;
+    background-color: white;
+    font-size: 24px;
+    font-family: dosis;
+    font-weight: 600;
+    cursor: pointer;
+
+}
+.start:hover{
+    background-color: rgb(150, 238, 63);
+    color: white;
+    font-weight: 800;
+}
+.gameField{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    
+}
+.gameField p{
+    font-family: dosis;
+    font-size: 32px;
+    font-weight: 500;
+    /* color: rgb(150, 238, 63); */
+}
+.inputField{
+    width: 20%;
+    height: 10%;
+    font-size: 24px;
+    padding: 20px;
+    border: rgb(150, 238, 63) solid 3px;
+    text-align: center;
+
+    
+}
+.gameField button{
+    width: 25%;
+    height: 6%;
+    font-size: 20px;
+    color: rgb(150, 238, 63);
+    background-color: white;
+    border: rgb(150, 238, 63) solid 3px;
+    cursor: pointer;
+
+
+
+}
+.tipsDisplay{
+    font-family: dosis;
+    font-size: 24px;
+}
+.preMain{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+.preMain p{
+    font-family: dosis;
+    font-size: 24px;
+}
+.previousChoice{
+    font-size: 16px;
+    font-family: dosis;
+    letter-spacing: 3px;
+}
+.balGuess{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+.balGuess p{
+    font-family: dosis;
+    font-size: 24px;
+}
+.balance{
+    font-size: 16px;
+    font-family: dosis;
+    letter-spacing: 3px;
+}
+.showNum{
+    width: 100%;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+.showNum button{
+     width: 60%;
+    height: 20%;
+    font-size: 20px;
+    color: rgb(150, 238, 63);
+    background-color: white;
+    border: rgb(150, 238, 63) solid 3px;
+    cursor: pointer;
+
+
+}
+.showNumber{
+    font-size: 32px;
+    font-family: dosis;
+    letter-spacing: 3px;
+}
+.resetAndQuit{
+    width: 100%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+.resetAndQuit button{
+     width: 60%;
+    height: 10%;
+    font-size: 20px;
+    color: rgb(150, 238, 63);
+    background-color: white;
+    border: rgb(150, 238, 63) solid 3px;
+    cursor: pointer;
+
+
+}

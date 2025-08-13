@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Number Guess</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="title">
+      <h1>Lucky Guess</h1>
+    </div>
+    <div class="startButton">
+            <button class="start">START GAME</button>
+      </div>
+    <div class="main ">
+      <div class="leftSide">
+        <div class="balGuess">
+          <p>Balance Guess</p>
+          <h5 class="balance">10</h5>
+        </div>
+        <div class="preMain">
+          <p>Your previous choice</p>
+          <h5 class="previousChoice"></h5>
+        </div>
+      </div>
+      <div class="center">
+        <div class="bio">
+          <p>Every guess gets you to the truth</p>
+        </div>
+        
+        <div class="gameField">
+            <p>Guess the number</p>
+            <h3>Enter any number between 1 to 50...</h3>
+            <input type="number" class="inputField" placeholder="Enter here...">
+            <button class="checkBtn">Check</button>
+            <h4 class="tipsDisplay"></h4>
+        </div>
+      </div>
+      <div class="rightSide">
+        <div class="showNum">
+          <h5 class="showNumber"></h5>
+          <button class="showBtn">Show Number</button>
+          <button class="hideBtn">Hide Number</button>
+        </div>
+        <div class="resetAndQuit">
+          <button class="reset">Reset</button>
+          <button class="quit">Quit Game</button>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="./script.js"></script>
+</html>
