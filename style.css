@@ -226,3 +226,66 @@ body {
 
 
 }
+
+
+@media (max-width:600px) {
+    .title h1{
+        font-size: 70px;
+    }
+    .start{
+        width: 50%;
+    }
+    .main{
+        flex-direction: column;
+    }
+    .leftSide{
+        width: 100%;
+        height: 10%;
+        display: flex;
+    }
+    .balGuess{
+        width: 40%;
+        height: 80%;
+        gap: 0;
+    }
+    .balGuess p{
+        font-size: 20px;
+    }
+    .preMain{
+        width: 60%;
+        height: 80%;
+        gap: 0;
+    }
+    .preMain p{
+        font-size: 20px;
+    }
+    .center{
+        width: 100%;
+        height: 70%;
+    }
+    .inputField{
+        width: 50%;
+
+    }
+    .gameField button{
+        width: 40%;
+        height: 10%;
+    }
+    .rightSide{
+        width: 100%;
+        height: 20%;
+        display: flex;
+    }
+    .showNum{
+        display: none;
+    }
+    .resetAndQuit{
+        width: 100%;
+        height: 100%;
+    }
+    .resetAndQuit button{
+        width: 40%;
+        height: 24%;
+
+    }
+}
